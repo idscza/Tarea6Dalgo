@@ -14,4 +14,13 @@ public class Dijkstra {
 			}
 		}
 	}
+	
+	public void algoritmo() {
+		long startTime;
+		long endTime;
+		startTime = System.currentTimeMillis();
+		//TODO
+		endTime = System.currentTimeMillis();
+		System.out.println("Dijkstra tardó " +(endTime-startTime) + " milisegundos");
+	}
 }

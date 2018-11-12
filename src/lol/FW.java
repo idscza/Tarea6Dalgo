@@ -14,4 +14,13 @@ public class FW {
 			}
 		}
 	}
+	
+	public void algoritmo() {
+		long startTime;
+		long endTime;
+		startTime = System.currentTimeMillis();
+		//TODO
+		endTime = System.currentTimeMillis();
+		System.out.println("Floyd Warchal tardó " +(endTime-startTime) + " milisegundos");
+	}
 }
